@@ -5,7 +5,7 @@ class Viewer extends React.Component {
         const { words } = this.props;
         return <div>
         <p>Since you'll most likely be on your computer for {words.number_1} hours a day,
-        it's very important that you learn how to type quicly. That way, you'll
+        it's very important that you learn how to type quickly. That way, you'll
         be able to finish your research project on {words.foreign_country} {words.adverb} and amaze your 
         friends with your {words.ing_verb_1} skills!</p>
         <p>Since my {words.body_part_1} would never land on the {words.plural_noun_1} correctly, I decided to take a 
