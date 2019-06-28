@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Offside&display=swap');
+
+body {
+    background-image: url(../assets/background.png);
+    background-size: cover;
+    color: white;
+    font-family: 'Offside', cursive;
+    text-align: center;
+}
+
+.viewerWrapper {
+    max-width: 900px;
+    margin: 40px auto 0;
+    width: 90%;
+}
+
+h1 {
+    color: #0bf0ef;
+    font-size: 50px;
+    margin: 120px 0 60px;
+}
+
+button,
+a {
+    color: #060142;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #0bf0ef;
+    font-family: 'Offside', cursive;
+    font-size: 15px;
+    padding: 5px 18px;
+    margin: 20px 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover,
+a:hover {
+    background-color: white;
+}
+
+button {
+    margin: 0 auto;
+    display: block;
+    margin-top: 45px;
+    margin-bottom: 100px;
+}
+
+.fields-container {
+    text-align: right;
+    margin: 30px auto;
+    width: fit-content;
+    width: -moz-fit-content;
+}
+
+.field {
+    margin: 10px 0;
+}
+
+.fields-container input {
+    border-radius: 18px;
+    border: solid 2px #0bf0ef;
+    background-color: #060142;
+    padding: 6px 10px;
+    color: white;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.mad-word {
+    text-decoration: underline;
+    color: #0bf0ef;
+}
+
+@media (max-width: 400px) {
+    .field {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}

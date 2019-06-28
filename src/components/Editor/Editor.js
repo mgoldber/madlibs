@@ -31,7 +31,7 @@ class Editor extends React.Component {
         errors = this.props.errors.errors;
       }
 
-      return <div>
+      return <div className="fields-container">
         {
           this.props.errors ? <div className='error'>There were some errors saving your madlibs!</div> :
                               null
